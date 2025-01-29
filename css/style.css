@@ -34,9 +34,14 @@ nav a:hover {
 /* Footer Styles */
 footer {
     display: flex;
-    background-color: #f5eee0;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-color: #f5eee0;
 }
 
 footer a {
@@ -107,11 +112,11 @@ section p {
 /* link styles */
 section a {
     text-decoration: none;
-    color: #000000;
+    color: #982f2f;
 }
 
 section a:hover {
-    color: #0000ff;
+    color: #ec3a3a;
 }
 
 /* List Styles */
@@ -149,11 +154,30 @@ dl dd{
 }
 
 /* Project Section */
-.three-col {}
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
 
-.card {}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
 
-.card img {}
+.card img {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
 
 .card h3 {}
 
