@@ -31,15 +31,23 @@ nav a {
 }
 
 nav a:hover {
-    color: blueviolet;
+    color: blue;
 }
 
 /* Footer Styles */
-footer {}
+footer {
+    background-color: #f5eee0;
+}
 
-footer a {}
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
 
-footer a:hover {}
+footer a:hover {
+    color: blue;
+}
 
 /* Splash Section */
 .splash {}
