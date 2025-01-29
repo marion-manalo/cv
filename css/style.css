@@ -1,10 +1,7 @@
 /* General Styles */
 body {
     margin: 0;
-    font-family: "Host Grotesk", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    background-color: #F5EFE7;
 }
 
 /* Nav Styles */
@@ -15,13 +12,13 @@ nav {
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-    background-color: #7acbd4;
+    background-color: #D8C4B6;
     justify-content: space-between;
 }
 
 nav p, nav a {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 nav a {
@@ -53,16 +50,32 @@ footer a:hover {
 }
 
 /* Splash Section */
-.splash {}
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-.splash h1 {}
+.splash h1 {
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #213555;
+}
 
 .splash img {
-    border: 3px solid white;
+    border: 5px solid #ffffff;
     border-radius: 100%;
 }
 
-.splash p {}
+.splash p {
+    font-family: "Kumbh Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-variation-settings: "YOPQ" 300;
+}
 
 /* Horizontal Rules */
 hr {}
