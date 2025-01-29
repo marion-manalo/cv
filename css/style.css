@@ -61,11 +61,11 @@ footer a:hover {
     font-family: "Host Grotesk", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    color: #213555;
+    color: #34507f;
 }
 
 .splash img {
-    border: 5px solid #ffffff;
+    border: 5px solid #213555;
     border-radius: 100%;
 }
 
@@ -84,16 +84,29 @@ hr {
 }
 
 /* Sections */
-section {}
+section {
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-left: 10px;
+}
 
 /* Section Headings */
-section h2 {}
+section h2 {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #23467d;
+}
 
 /* Paragraph Styles */
-section p {}
+section p {
+    padding-left: 40px;
+}
 
 /* link styles */
 section a {}
+
 section a:hover {}
 
 /* List Styles */
