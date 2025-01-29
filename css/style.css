@@ -75,10 +75,13 @@ footer a:hover {
     font-weight: 500;
     font-style: italic;
     font-variation-settings: "YOPQ" 300;
+    padding: 10px;
 }
 
 /* Horizontal Rules */
-hr {}
+hr {
+    border: 7px dotted #5a8ccd;
+}
 
 /* Sections */
 section {}
