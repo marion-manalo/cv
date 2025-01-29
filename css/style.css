@@ -46,7 +46,7 @@ footer a {
 }
 
 footer a:hover {
-    color: blue;
+    color: #0000ff;
 }
 
 /* Splash Section */
@@ -105,12 +105,22 @@ section p {
 }
 
 /* link styles */
-section a {}
+section a {
+    text-decoration: none;
+    color: #000000;
+}
 
-section a:hover {}
+section a:hover {
+    color: #0000ff;
+}
 
 /* List Styles */
-ul {}
+ul {
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
 
 dl {}
 dl dt{}
