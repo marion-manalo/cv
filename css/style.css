@@ -1,8 +1,19 @@
 /* General Styles */
-body {}
+body {
+    margin: 0;
+    font-family: "Host Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Nav Styles */
-nav {}
+nav {
+    display: flex;
+    background-color: rgb(100, 220, 228);
+    background-image: url("images/Arch_USNWR.jpg");
+    justify-content: space-between;
+}
 
 nav p, nav a {}
 
@@ -22,7 +33,10 @@ footer a:hover {}
 
 .splash h1 {}
 
-.splash img {}
+.splash img {
+    border: 3px solid black;
+    border-radius: 100%;
+}
 
 .splash p {}
 
